@@ -88,7 +88,7 @@ export default {
       },300)
     },
     playSound(square) {
-      new Audio(`../assets/sounds/${square}.ogg`).play()
+      new Audio(`./sounds/${square}.ogg`).play()
     },
     registerClick(square) {
       if(this.active){
